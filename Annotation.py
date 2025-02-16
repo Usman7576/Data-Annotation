@@ -5,7 +5,7 @@ import google.generativeai as genai
 from pypdf import PdfReader  # ✅ Import for PDF processing
 
 # Configure Gemini API
-API_KEY = "AIzaSyDorprhphVsD7d3yOVhQzLlgPIZz4M3Nok"  # Replace with your actual API key
+API_KEY = "Your Gemini API Key"  # Replace with your actual API key
 genai.configure(api_key=API_KEY)
 
 # Categories for classification
